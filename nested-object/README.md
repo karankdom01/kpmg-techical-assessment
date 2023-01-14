@@ -7,8 +7,9 @@ How to run the script.
 
 User needs to provide the Objects and Keys.
 
-Example Inputs
-object = {“a”:{“b”:{“c”:”d”}}}
-key = a/b/c
-Example Output
-value = d
+- Example Inputs
+- object = {"a":{"b":{"c":"d"}}}
+- key = a/b/c
+
+- Example Output
+- value = d
