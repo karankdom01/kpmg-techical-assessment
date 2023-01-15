@@ -15,4 +15,4 @@
 -----------------------------------------------------------------------
 
 ## How to run the script.
-```python3 metadata-in-json.py```
+```python3 find-in-metadata.py```
