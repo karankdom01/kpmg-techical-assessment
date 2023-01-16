@@ -45,10 +45,8 @@ def gen_dict_extract(key, var):
                         yield result
 
 
-def find_key(key):
-    metadata_output = get_data()
-    return list(gen_dict_extract(key, metadata_output))
+metadata_output = get_data()
+key = input("Metadata Key?\n")
+print(list(gen_dict_extract(key, metadata_output)))
 
-key = input("What key would you like to find?\n")
-print(find_key(key))
 
